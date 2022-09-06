@@ -27,11 +27,17 @@ Warna dalam Wireshark :
 ![COLORING RULES WIRESHARK](assets/coloring-rules-wireshark.jpg)
 
 
-#### Mengecek Alamat IP, Default Gateway, dan Melakukan Ping 
+#### Mengecek Alamat IP, Default Gateway, dan Melakukan Ping
+
+![CMD IPCONFIG](assets/ipconfig.jpg)
 
 #### Packet Analyzer
 
+
+
 #### Frame
+
+![FRAME](assets/frame.jpg)
 
 Dalam lapisan frame terdapat :
 - Arrival time : ---- menunjukkan waktu saat pengiriman data.
@@ -43,10 +49,14 @@ Dalam lapisan frame terdapat :
 
 #### Ethernet II
 
+![Ethernet II](assets/ethernet-2.jpg)
+
 - Source : --- ini menunjukkan MAC dari source dan MAC dari destination
 - ::: Lapisan ini merupakan lapisan data link MAC dari source dan destination
 
 #### Internet Protocol v4
+
+![IPv4](assets/ipv4.jpg)
 
 Dalam lapisan Internet Protocol v4 terdapat :
 - 0100 .... = Version 4
@@ -55,6 +65,8 @@ Dalam lapisan Internet Protocol v4 terdapat :
 - ::: Lapisan ini merupakan lapisan network yang memiliki panjang 20 bytes dan memiliki IP Source serta IP Destination
 
 #### ICMP (Internet Control Message Protocol)
+
+![ICMP](assets/icmp.jpg)
 
 Dalam lapisan ICMP terdapat :
 
