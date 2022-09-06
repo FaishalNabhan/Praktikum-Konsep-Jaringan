@@ -31,27 +31,29 @@ Warna dalam Wireshark :
 
 ![CMD IPCONFIG](assets/ipconfig.jpg)
 
+Berdasarkan gambar di atas dapat disimpulkan bahwa pada device yang digunakan IP Address nya adalah 192.168.1.10 dengan Default Gateway 192.168.1.1
+
 #### Packet Analyzer
 
-
+![PACKET ANALYZER](assets/packet-analyzer.jpg)
 
 #### Frame
 
 ![FRAME](assets/frame.jpg)
 
 Dalam lapisan frame terdapat :
-- Arrival time : ---- menunjukkan waktu saat pengiriman data.
-- [Time delta from previous], [Time delta from previous], [Time since] menunjukkan waktu sebelum capture dari frame, waktu setelah frame ditampilkan, dan juga waktu sejak awal frame.
-- Frame number : --- menunjukkan nomor dari frame tersebut.
-- Frame length : --- menunjukkan panjangnya frame dalam bentuk byte.
-- [Protocols in frame: eth:] menunjukkan protokol apa saja yang ada dalam satu frame.
+- Arrival time : Sep 6, 2022 21:44:55.594767000 SE Asia Standard Time menunjukkan waktu saat pengiriman data.
+- [Time delta from previous captured frame : 0.108876000 seconds], [Time delta from previous displayed frame : 0.108876000 seconds], [Time since reference or first frame : 51.615794000 seconds] menunjukkan waktu sebelum capture dari frame, waktu setelah frame ditampilkan, dan juga waktu sejak awal frame.
+- Frame number : 5143 menunjukkan nomor dari frame tersebut.
+- Frame length : 74 menunjukkan panjangnya frame dalam bentuk byte(s).
+- [Protocols in frame: eth:ethertype:ip:icmp:data] menunjukkan protokol apa saja yang ada dalam satu frame.
 - ::: Pada lapisan frame ini memiliki beberapa lapisan protokol seperti Ethernet, IP, TCP, HTTP, dan data.
 
 #### Ethernet II
 
 ![Ethernet II](assets/ethernet-2.jpg)
 
-- Source : --- ini menunjukkan MAC dari source dan MAC dari destination
+- Source : CloudNet_48:55:3b (dc:e9:94:48:55:3b), Destination : Raisecom_b6:7b:f4 (78:91:e9:b6:7b:f4) ini menunjukkan MAC dari source dan MAC dari destination
 - ::: Lapisan ini merupakan lapisan data link MAC dari source dan destination
 
 #### Internet Protocol v4
@@ -61,7 +63,7 @@ Dalam lapisan frame terdapat :
 Dalam lapisan Internet Protocol v4 terdapat :
 - 0100 .... = Version 4
 - .... 0101 = Header Length : 20 bytes(5) menunjukkan panjang header
-- Internet Source Address : ---- menunjukkan IP Source, Destination Address : --- menunjukkan IP Destination
+- Internet Source Address : 192.168.1.10 menunjukkan IP Source, Destination Address : 192.168.1.1 menunjukkan IP Destination
 - ::: Lapisan ini merupakan lapisan network yang memiliki panjang 20 bytes dan memiliki IP Source serta IP Destination
 
 #### ICMP (Internet Control Message Protocol)
