@@ -24,7 +24,7 @@ Wireshark membantu penggunanya untuk mengidentifikasi tipe paket dengan memberik
 
 Warna dalam Wireshark :
 
-![COLORING RULES WIRESHARK](https://github.com/FaishalNabhan/Praktikum-Konsep-Jaringan/blob/main/assets/coloring-rules-wireshark.jpg)
+![COLORING RULES WIRESHARK](assets/coloring-rules-wireshark.jpg)
 
 
 #### Mengecek Alamat IP, Default Gateway, dan Melakukan Ping 
