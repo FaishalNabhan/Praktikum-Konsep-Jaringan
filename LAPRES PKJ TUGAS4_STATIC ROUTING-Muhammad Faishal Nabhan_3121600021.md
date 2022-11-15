@@ -12,7 +12,7 @@
 
 berikut merupakan topologi dari static routing yang membutuhkan 2 pc dan 2 router dengan subneting.
 
-![topologi](assets/topologi%201.png)
+![topologi](assets/Tugas4/topologi%201.png)
 
 Konfigurasi IP yang akan digunakan sebagai berikut :
 
@@ -39,7 +39,7 @@ konfigurasi router diperlukan untuk menentukan rute yang dapat dilalui oleh pake
 
 percobaan ping dari PC-0 ke PC-1
 
-![ping](assets/ping%201.png)
+![ping](assets/Tugas4/ping%201.png)
 
 terjadi RTO 2 kali pada ping pertama dan ping kedua disebabkan terjadinya arp pada saat broadcast domain antara PC-0 dengan router0 dan terjadi brodcast lagi pada saat ping kedua antara router0 an router1. pada ping ketiga baru terhubung langsung sebab proses arp sudah selesai.
 
@@ -47,7 +47,7 @@ terjadi RTO 2 kali pada ping pertama dan ping kedua disebabkan terjadinya arp pa
 
 berikut merupakan topologi dari 2 jaringan yang terhubung ke sebuah router yang sama.
 
-![topologi](assets/topologi%202.png)
+![topologi](assets/Tugas4/topologi%202.png)
 
 Konfigurasi IP yang akan digunakan sebagai berikut :
 
@@ -62,7 +62,7 @@ Konfigurasi IP yang akan digunakan sebagai berikut :
 
 percobaan ping dari PC-0 ke PC-2 yang memiliki jaringan berbeda.
 
-![ping](assets/ping%202.png)
+![ping](assets/Tugas4/ping%202.png)
 
 PC-0 dan PC-2 otomasi akan terhubung sebelum menambahkan routing manual sebab routing pada jaringan akan terjadi secara otomatis saat kita menambahkan ip ke router yang dinamakan directly connected.
 Footer
