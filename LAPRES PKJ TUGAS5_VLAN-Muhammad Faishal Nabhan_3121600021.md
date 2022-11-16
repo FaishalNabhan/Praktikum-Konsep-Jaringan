@@ -77,4 +77,3 @@ konfigursi pada switch supaya dapat terhubung dengan jaringan dari router ke pc 
 testing ping PC0 ke PC1
 
 ![ping](assets/Tugas5/ping%201.png)
-Footer
