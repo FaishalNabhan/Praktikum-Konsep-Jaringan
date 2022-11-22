@@ -25,7 +25,7 @@ Time To Live adalah sebuah mekanisme yang membatasi usia pakai pada suatu paket 
 
 Terdiri dari 3 router, 2 MAC, dan 2 Switch.
 
-![Topologi](assets/Tugas8/Topologi.jpeg)
+![Topologi](assets/Tugas8/topologi.jpeg)
 
 ### Konfigurasi IP Route
 
